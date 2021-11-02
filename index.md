@@ -1,5 +1,7 @@
 # Advanced Python Course 2021
 
+[About me](https://tabeaheckenthaler.github.io/aboutMe)
+
 ## Lecture 1 Oct. 26th:
 
 * Gabor explained about the process of cloning, sending a push and a pull request.
