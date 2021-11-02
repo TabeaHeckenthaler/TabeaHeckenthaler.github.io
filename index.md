@@ -26,4 +26,5 @@
 
 
 ## Lecture 2 Nov. 2nd:
-I was sick... trying to understand, what we did... 
+I started to do the homework. 
+My site is linked [here](https://tabeaheckenthaler.github.io).
