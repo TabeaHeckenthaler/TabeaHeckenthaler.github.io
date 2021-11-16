@@ -59,3 +59,13 @@ flask run
 - [ ] Write a calculator 
 - app.logger... can help you deal with errors in your website\
 - pull request with a link in your json files (homework)
+
+## Lecture 4 Nov 16th:
+* mapping fixed paths. We learned this. 
+* Now, lets see, if we can have dynamic paths, ... like you have on exercism
+* Put in the decorator: \
+@app.route('\user\<userID>') \
+def something(userID):\
+ return userID\
+* curl : access the internet from your command line without browser, it will return the html from whatever website
+* 
