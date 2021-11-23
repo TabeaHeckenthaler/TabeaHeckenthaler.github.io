@@ -113,3 +113,29 @@ def something(userID):\
 * [Gabor says](https://code-maven.com/python-package-dependency-management): Create your own requirements.txt
 * pip install -r requirements.txt -c constraints.txt
 * pip freeze > constraints.txt
+* Wrapper: Pandas is a wrapper of numpy. So, the data inside a pandas dataframe is stored as numpy array
+* Algorithms and datastructures: scalars (string, number), lists, dictionaries (immutable key, some value), 
+* Behind the scenes: Trees, graphs, binary graphs.
+* What type of data structure to use? Add value, find value, 
+* ordered list makes it less computationally heavy to find a value, by checking in the half. (from O(n) to O(log(n))) 
+* sorting a list can be n^2 and n*log(n)
+* Homework: improve the speed of a program, multiple CPUs, and reduce complexity
+* it can be bad, if you don't choose lists 
+* Look at your program, and make sure that the order of your program is reasonable. 
+* Speed up your CS diagram creator... :) Should be fun :) 
+* In order to run in parallel,
+* CPU (central computing unit)
+* GPU (graphical processing unit), created only for handling your screen. Its like a stupid CPU. 
+* Recently, they found that numpy type operations is good to run on GPU, because he does exactly what we need very well. Physically GPU is physical built for heavy computations.
+* python Levenshtein ... distance of two words. This has an implementation in C
+* Fast marching method could be improved by using symmetry? But we dont update our CS in a symmetrical fashion* FIFO (first in, first out), LIFO (last in, last out): watch 3 bootcamp movies
+* FIFO (first in, first out), LIFO (last in, last out): watch 3 bootcamp movies
+* deque is the module in python that will do this. 
+* Numpy is behind the scene written in C. This is why it's fast. 
+* forking (multiprocessing) and threading (single threaded vs multi threaded)
+* asynchronous non blocking or synchronous vs. blocking cooperative multitasking
+* time slicing (operating system gives the CPU to different tasks)
+* Deadlocking to avoid mis-computation (for example in threading, shared memory)
+* Resource starvation: you run out of memory
+* Depending on the type of application that you are running... IO (reading from file), CPU (computation)... that determines how many threads you want to open
+* 
