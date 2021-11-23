@@ -110,7 +110,6 @@ def something(userID):\
 * Better: requirements.txt (you can even specify the version you need... like this: numpy >= 1.03)
 * You can install them all at once is: pip install -requirements.txt
 * pip freeze > requirements.txt will create a requirements.txt. 
-* Gabor says: Create your own requirements.txt
+* [Gabor says](https://code-maven.com/python-package-dependency-management): Create your own requirements.txt
 * pip install -r requirements.txt -c constraints.txt
 * pip freeze > constraints.txt
-* 
