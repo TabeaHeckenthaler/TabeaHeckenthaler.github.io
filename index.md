@@ -64,8 +64,53 @@ flask run
 * mapping fixed paths. We learned this. 
 * Now, lets see, if we can have dynamic paths, ... like you have on exercism
 * Put in the decorator: \
-@app.route('\user\<userID>') \
+
+@app.route{'\user\', defaults={'userID': 'zero'}} (not necessary)\
+@app.route('\user\<str:userID>') \
 def something(userID):\
  return userID\
 * curl : access the internet from your command line without browser, it will return the html from whatever website
+* how to safely store passwords: hashing algorithm
+* dictionaries use hashes, to find the place where to store
+* You can use html template matching,... this is somehow cool
+* Jinja helps you deal with html template matching... use render_template ... does something with jinja... 
+* [jinja html template](https://code-maven.com/slides/python/flask-jinja-list-of-dictionaries)
+* [jinja include](https://code-maven.com/slides/python/flask-jinja-include)
+* images: put in directory called static/img
+* What is right to say: I am German, and I don't deny the atrocities of my nation. I love the Jewish nation. 
+* Cookies: I build up a new connection every time. You need a server to understand, who you are. 
+* Account
+* css bootstrap, bulma is a nicer way to create html websites. 
+* css is a separate language. but them in style brackets
+* css allows you to define classes, of how to display text 
+* css allows you to define ids.
+* I think you have to learn how to use css. 
+* css means cascading style sheet\
+* you can link to the css style sheet, so you can put the css in a seperate file. 
+* b (bold),p (paragraph), div (like paragraphs), span (mark some text, but please dont break it into two lines)
+* You can use HEX to chose colors
+* find more stuff on the class README.md
+* separate the business logic, from the web application and the command line script.
+* send Gabor a pull request with interesting modules
+* Tk toolkit, helps you create a desktop application, it talks to your Betriebssystem
+* there is a video in the bootcamp about tk.
+* tk is a nice way to make guis. ... maybe you can do this for your research :)
+
+
+## Lecture 5 Nov 23rd:
+* jupyter notebook is just an environment, and editor, to program interactively
+* jupyter notebook run a web application
+* --ip means: Suddenly the server is listening to all other computers as well. 
+* --no-browser: Will not open a browser
+* which python are we running? python (which is actually python3) by default installed on Windows
+* python as a directory, where it installs all of its modules. 
+* pip install ... or conda install
+* venv directory is in your project directory.
+* venv directory should not be in version control
+* Better: requirements.txt (you can even specify the version you need... like this: numpy >= 1.03)
+* You can install them all at once is: pip install -requirements.txt
+* pip freeze > requirements.txt will create a requirements.txt. 
+* Gabor says: Create your own requirements.txt
+* pip install -r requirements.txt -c constraints.txt
+* pip freeze > constraints.txt
 * 
