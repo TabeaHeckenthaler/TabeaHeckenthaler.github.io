@@ -122,7 +122,7 @@ def something(userID):\
 * Homework: improve the speed of a program, multiple CPUs, and reduce complexity
 * it can be bad, if you don't choose lists 
 * Look at your program, and make sure that the order of your program is reasonable. 
-* Speed up your CS diagram creator... :) Should be fun :) 
+* Speed up your CS diagram creator... :) Should be fun :) ... you can check bounding box. 
 * In order to run in parallel,
 * CPU (central computing unit)
 * GPU (graphical processing unit), created only for handling your screen. Its like a stupid CPU. 
@@ -137,5 +137,29 @@ def something(userID):\
 * time slicing (operating system gives the CPU to different tasks)
 * Deadlocking to avoid mis-computation (for example in threading, shared memory)
 * Resource starvation: you run out of memory
-* Depending on the type of application that you are running... IO (reading from file), CPU (computation)... that determines how many threads you want to open
+* Depending on the type of application that you are running... IO (reading from file, or downloading stuff), CPU (computation)... that determines how many threads you want to open
+* [Thread counting](https://code-maven.com/slides/python/class-counter-central)
+* locker.acquire() and locker.release()
+* counter_central_plain (this is just linear counting), counter_central_lock (you have a lot of overhead from all the locking etc.)
+* GIL - global interpreter lock (only one of the threads can run at the same time).
+* What is the difference between an iterator and a stack?
+* best module: [multiprocessing as mp](https://code-maven.com/slides/python/multiprocess-file)
+* map is a nice method, similar to list comprehension
+
+## Lecture 6 Nov 30th
+* Why do we need machine learning?
+* We have more variables: Map variables to some classification
+* supervised: Already know answers...
+* unsupervised: Grouping... without knowing any answer
+
+### Regression problem
+* Predict continuous value output (housing prices, life expectancy)
+* Solutions: Linear regression with sklearn (over-fitting: Every new data point totally changes the polynom fitted)
+* get good data!! This is really important :) 
+
+### Classification problem
+* Predict binary value output
+* Example: Tumor size... malignant or benign
+* Unsupervised Learning: Clustering... 
+* Random seed fixed to 42
 * 
