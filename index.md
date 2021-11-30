@@ -162,4 +162,30 @@ def something(userID):\
 * Example: Tumor size... malignant or benign
 * Unsupervised Learning: Clustering... 
 * Random seed fixed to 42
+
+### Logistic Regression
+* If you have to classify two 
+* SVC(): Support vector classification
 * 
+
+### Train Test Split
+* sklearn.model_selection has a module for this: train_test_split(X, y, random_state=...)
+* ratio by default is 70% train and 30% test
+* AI: We still have no idea, what we are doing... Its just faster computers
+* stratify: You can make sure, that the data is well distributed 
+
+Andrew Ng. He is the God of Machine learning.
+Modify your data, and create more features. Like... make it fit a linear regression by taking the square root of a quadratic dependency. 
+Sometimes your input data is boolean, or strings, or something strange like that
+
+
+I think, I should do some predictions on my data... 
+What are my predictors, and what are my classifiers?
+
+about mean ant speed, and check, whether this will influence the 
+path length?
+
+I could run a machine learning algorithm,
+and check whether there is a correlation, and if I find one, 
+I can try to find more exact explanations. 
+
