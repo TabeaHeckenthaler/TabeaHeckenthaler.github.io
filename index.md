@@ -189,3 +189,62 @@ I could run a machine learning algorithm,
 and check whether there is a correlation, and if I find one, 
 I can try to find more exact explanations. 
 
+## Assignment
+[] find a dataset related to you
+[] Do some machine learning... use one of the models
+[] 
+
+## Lecture 7 Dec 7th
+### Entrez
+* has as specific module
+
+### ftp
+* ftp:// file transfer protocol
+* your browser is a ftp client... it can be used to upload and download files. 
+* It is unencrypted
+* there is also a secure ftp
+* https:// means... its encrypted, as opposed to http://
+
+### any other website
+* what happens after searching?
+* API: Application programming interface
+* Most websites don't have API
+* API makes it much more easy to interact with a website, and download stuff. 
+
+### webscraping vs. API
+* import urllib.request
+* with urllib.request.urlopen('https://python.org') as fh: ... you can get the html.
+* written on [website](https://code-maven.com/slides/python/urllib-download) 
+* open something as 'name': name is a file handle
+
+* import requests 
+* written on [website](https://code-maven.com/slides/python/requests-get)
+* response.header contains all the metadata about the website...  like date of the page, content type, age, blabla
+* how to download a zip file
+* memory (RAM): Arbeitsspeicher, Hard disk: Long term memory, Disk memory
+* Somehow all the things you download are first saved in RAM. This means, you are restricted in the amount of data you can download
+
+* import zipfile: this built in python library helps you unzip files. 
+
+* from bs4 import BeautifulSoup
+* It understands html... Its like a parser
+* you have some html string. soup = BeautifulSoup(html, features='lxml')
+* soup.title.txt
+* transferring passwords: Two ways: one over telephone the rest over email. 
+* css selector,... what was that again?
+* do "Inspect" on article
+* [httpsbin.org](httpsbin.org) to [practice](https://code-maven.com/slides/python/requests-get-httpbin) this stuff :) 
+* you can change your User-Agent
+* if you change locations your IP address changes
+
+* weather API openweathermap.org [example](https://code-maven.com/slides/python/download-weather-api-call-requests)
+* API endpoint
+* openweathermap-simplified is a nice module... you can interact without going over request.. found on pypi.com website
+* Here youu see, how your can use the package
+* 
+
+## Assignment
+[] create pull request for machine learning
+[] what are you doing in Weizmann
+[]
+
