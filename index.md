@@ -248,3 +248,7 @@ I can try to find more exact explanations.
 [] what are you doing in Weizmann
 []
 
+## Lecture 8 Dec 11th
+### Examples of packages
+* [mayavi](https://github.com/TabeaHeckenthaler/TabeaHeckenthaler.github.io/blob/master/Examples/mayavi_example.py)
+* [pathpy](https://github.com/TabeaHeckenthaler/TabeaHeckenthaler.github.io/blob/master/Examples/network_example.py)
