@@ -9,4 +9,4 @@ n.add_edge('c', 'e')
 print(n)
 
 export_html(n, 'network.html')  # the documentation of plot gives you the parameters that you could import here.
-
+# you can find the html in the repository from which you ran the code. Open the html file in your browser to play with the network :) .
